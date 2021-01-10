@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Test stolen hardware</description>
+        <internal_name>kolen_hardware</internal_name>
+        <label_cache>[{"name":"7402ecdf-d93b-429f-abae-e274df978845.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7402ecdf-d93b-429f-abae-e274df978845.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cb28d420-ebc0-42c1-970f-ac6e81ee4774.record","label":"1➛Hardware Record","reference":"alm_hardware","reference_display":"Hardware","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cb28d420-ebc0-42c1-970f-ac6e81ee4774.table_name","label":"1➛Hardware Table","reference":"alm_hardware","reference_display":"Hardware","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6294c7c7-6ec8-4181-9f5b-1889de7da475.email","label":"2➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cb28d420-ebc0-42c1-970f-ac6e81ee4774.record.assigned_to.email","label":"1➛Hardware Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"cb28d420-ebc0-42c1-970f-ac6e81ee4774.record.display_name","label":"1➛Hardware Record➛Display name","reference":"","reference_display":"Display name","type":"string","base_type":"string","parent_table_name":"alm_hardware","column_name":"display_name"},{"name":"cb28d420-ebc0-42c1-970f-ac6e81ee4774.record.assigned_to.name","label":"1➛Hardware Record➛Assigned to➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"}]</label_cache>
+        <latest_snapshot>57acff662fe920106776bab62799b6a3</latest_snapshot>
+        <master_snapshot>57acff662fe920106776bab62799b6a3</master_snapshot>
+        <name>Kolen Hardware</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>e7acff662fe920106776bab62799b6e1</remote_trigger_id>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 18:59:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>682921222fa520106776bab62799b6dc</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Kolen Hardware</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_682921222fa520106776bab62799b6dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:46:19</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=682921222fa520106776bab62799b6dc"/>
+    <sys_variable_value action="delete_multiple" query="document_key=682921222fa520106776bab62799b6dc"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>5</day_of_month>
+        <day_of_week/>
+        <name/>
+        <run_period/>
+        <run_start>2021-01-10 05:43:43</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e7acff662fe920106776bab62799b6e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <time>1970-01-02 01:00:00</time>
+        <timer_type>4</timer_type>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>Trigger:e7acff662fe920106776bab62799b6e1</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>5</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2021-01-10 05:43:43</run_start>
+        <run_time>1970-01-02 01:00:00</run_time>
+        <run_type>monthly</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('e7acff662fe920106776bab62799b6e1');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>27acff662fe920106776bab62799b6ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">e7acff662fe920106776bab62799b6e1</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_hub_flow_component action="delete_multiple" query="flow=682921222fa520106776bab62799b6dc^sys_idNOT IN1f09bd6a2fa520106776bab62799b67a,57b971aa2fa520106776bab62799b647,9709bd6a2fa520106776bab62799b67f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Kolen Hardware">682921222fa520106776bab62799b6dc</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:08:37</sys_created_on>
+        <sys_id>1f09bd6a2fa520106776bab62799b67a</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <ui_id>cb28d420-ebc0-42c1-970f-ac6e81ee4774</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1f09bd6a2fa520106776bab62799b67a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1f09bd6a2fa520106776bab62799b67a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:08:37</sys_created_on>
+        <sys_id>9b09bd6a2fa520106776bab62799b67c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-09 20:08:37</sys_updated_on>
+        <value>alm_hardware</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1f09bd6a2fa520106776bab62799b67a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:08:37</sys_created_on>
+        <sys_id>d709bd6a2fa520106776bab62799b67c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-09 20:08:37</sys_updated_on>
+        <value>asset_tag=HW123987^model_category={"display":"Computer","value":"81feb9c137101000deeabfc8bcbe5dc4"}^model={"display":"Apple MacBook Pro 15\"","value":"d3bb6a2eac10019b4fa294baf5775f21"}</value>
+        <variable display_value="">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Kolen Hardware">682921222fa520106776bab62799b6dc</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:11:38</sys_created_on>
+        <sys_id>57b971aa2fa520106776bab62799b647</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:44</sys_updated_on>
+        <ui_id>7402ecdf-d93b-429f-abae-e274df978845</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=57b971aa2fa520106776bab62799b647"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>57b971aa2fa520106776bab62799b647</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:11:38</sys_created_on>
+        <sys_id>9fb975aa2fa520106776bab62799b6a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-09 20:11:38</sys_updated_on>
+        <value>alm_hardware</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>57b971aa2fa520106776bab62799b647</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:11:38</sys_created_on>
+        <sys_id>dbb975aa2fa520106776bab62799b6a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-09 20:11:38</sys_updated_on>
+        <value>department={"display":"Business Development","value":"2b88b18a3b700300d901655593efc409"}</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=57b971aa2fa520106776bab62799b647"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>57b971aa2fa520106776bab62799b647</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:11:38</sys_created_on>
+        <sys_id>97b975aa2fa520106776bab62799b6a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-09 20:11:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{cb28d420-ebc0-42c1-970f-ac6e81ee4774.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>57b971aa2fa520106776bab62799b647</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:11:38</sys_created_on>
+        <sys_id>d3b975aa2fa520106776bab62799b6a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-09 20:11:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>57b971aa2fa520106776bab62799b647</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:11:38</sys_created_on>
+        <sys_id>5bb975aa2fa520106776bab62799b6a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-09 20:11:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment>Notify  Legel Team</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Kolen Hardware">682921222fa520106776bab62799b6dc</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:08:37</sys_created_on>
+        <sys_id>9709bd6a2fa520106776bab62799b67f</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <ui_id>6294c7c7-6ec8-4181-9f5b-1889de7da475</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9709bd6a2fa520106776bab62799b67f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9709bd6a2fa520106776bab62799b67f</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:36</sys_created_on>
+        <sys_id>75acff662fe920106776bab62799b627</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:36</sys_updated_on>
+        <value>Whats up</value>
+        <variable display_value="">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9709bd6a2fa520106776bab62799b67f</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:08:37</sys_created_on>
+        <sys_id>9f09bd6a2fa520106776bab62799b682</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-09 20:08:37</sys_updated_on>
+        <value>&lt;p&gt;&lt;span class="data_parent_pill" style="display: inline;"&gt;&lt;span class="data_pill  accepts_transform_functions"&gt;1➛Hardware Record➛Assigned to➛Name&lt;button id="transform_function_facade_45e8307a-cf70-4a9d-9705-3190f2e81dd9" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="data_parent_pill" style="display: inline;"&gt;&lt;span class="data_pill  accepts_transform_functions"&gt;1➛Hardware Record➛Display name&lt;button id="transform_function_facade_47400070-2d06-4708-8bd7-d638381468ef" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
+        <variable display_value="">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9709bd6a2fa520106776bab62799b67f</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:08:37</sys_created_on>
+        <sys_id>db09bd6a2fa520106776bab62799b682</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-09 20:08:37</sys_updated_on>
+        <value>legal@example.com,
+ </value>
+        <variable display_value="">59806bf4a70323008299b39f087901da</variable>
+    </sys_variable_value>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=682921222fa520106776bab62799b6dc^sys_idNOT IN0309bd6a2fa520106776bab62799b677"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Kolen Hardware">682921222fa520106776bab62799b6dc</flow>
+        <name>Monthly</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:08:37</sys_created_on>
+        <sys_id>0309bd6a2fa520106776bab62799b677</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <trigger_definition display_value="Monthly">2ca52504c32222002841b63b12d3ae4a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>monthly</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0309bd6a2fa520106776bab62799b677"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>0309bd6a2fa520106776bab62799b677</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:08:37</sys_created_on>
+        <sys_id>0709bd6a2fa520106776bab62799b678</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-09 20:08:37</sys_updated_on>
+        <value>5</value>
+        <variable display_value="">ab36a504c32222002841b63b12d3ae8a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>0309bd6a2fa520106776bab62799b677</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:08:37</sys_created_on>
+        <sys_id>4309bd6a2fa520106776bab62799b678</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-09 20:08:37</sys_updated_on>
+        <value>1970-01-01 17:00:00</value>
+        <variable display_value="">b5d52504c32222002841b63b12d3aeaa</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=682921222fa520106776bab62799b6dc^sys_idNOT IN242921222fa520106776bab62799b6df"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>682921222fa520106776bab62799b6dc</id>
+        <name>Kolen Hardware</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 18:59:05</sys_created_on>
+        <sys_id>242921222fa520106776bab62799b6df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-09 18:59:05</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=682921222fa520106776bab62799b6dc^sys_idNOT IN1f09bd6a2fa520106776bab62799b67a,57b971aa2fa520106776bab62799b647,9709bd6a2fa520106776bab62799b67f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Kolen Hardware">682921222fa520106776bab62799b6dc</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:08:37</sys_created_on>
+        <sys_id>1f09bd6a2fa520106776bab62799b67a</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <ui_id>cb28d420-ebc0-42c1-970f-ac6e81ee4774</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1f09bd6a2fa520106776bab62799b67a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1f09bd6a2fa520106776bab62799b67a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:08:37</sys_created_on>
+        <sys_id>9b09bd6a2fa520106776bab62799b67c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-09 20:08:37</sys_updated_on>
+        <value>alm_hardware</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1f09bd6a2fa520106776bab62799b67a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:08:37</sys_created_on>
+        <sys_id>d709bd6a2fa520106776bab62799b67c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-09 20:08:37</sys_updated_on>
+        <value>asset_tag=HW123987^model_category={"display":"Computer","value":"81feb9c137101000deeabfc8bcbe5dc4"}^model={"display":"Apple MacBook Pro 15\"","value":"d3bb6a2eac10019b4fa294baf5775f21"}</value>
+        <variable display_value="">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Kolen Hardware">682921222fa520106776bab62799b6dc</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:11:38</sys_created_on>
+        <sys_id>57b971aa2fa520106776bab62799b647</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:44</sys_updated_on>
+        <ui_id>7402ecdf-d93b-429f-abae-e274df978845</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=57b971aa2fa520106776bab62799b647"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>57b971aa2fa520106776bab62799b647</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:11:38</sys_created_on>
+        <sys_id>9fb975aa2fa520106776bab62799b6a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-09 20:11:38</sys_updated_on>
+        <value>alm_hardware</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>57b971aa2fa520106776bab62799b647</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:11:38</sys_created_on>
+        <sys_id>dbb975aa2fa520106776bab62799b6a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-09 20:11:38</sys_updated_on>
+        <value>department={"display":"Business Development","value":"2b88b18a3b700300d901655593efc409"}</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=57b971aa2fa520106776bab62799b647"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>57b971aa2fa520106776bab62799b647</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:11:38</sys_created_on>
+        <sys_id>97b975aa2fa520106776bab62799b6a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-09 20:11:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{cb28d420-ebc0-42c1-970f-ac6e81ee4774.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>57b971aa2fa520106776bab62799b647</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:11:38</sys_created_on>
+        <sys_id>d3b975aa2fa520106776bab62799b6a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-09 20:11:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>57b971aa2fa520106776bab62799b647</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:11:38</sys_created_on>
+        <sys_id>5bb975aa2fa520106776bab62799b6a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-09 20:11:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment>Notify  Legel Team</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Kolen Hardware">682921222fa520106776bab62799b6dc</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:08:37</sys_created_on>
+        <sys_id>9709bd6a2fa520106776bab62799b67f</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <ui_id>6294c7c7-6ec8-4181-9f5b-1889de7da475</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9709bd6a2fa520106776bab62799b67f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9709bd6a2fa520106776bab62799b67f</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:36</sys_created_on>
+        <sys_id>75acff662fe920106776bab62799b627</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:36</sys_updated_on>
+        <value>Whats up</value>
+        <variable display_value="">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9709bd6a2fa520106776bab62799b67f</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:08:37</sys_created_on>
+        <sys_id>9f09bd6a2fa520106776bab62799b682</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-09 20:08:37</sys_updated_on>
+        <value>&lt;p&gt;&lt;span class="data_parent_pill" style="display: inline;"&gt;&lt;span class="data_pill  accepts_transform_functions"&gt;1➛Hardware Record➛Assigned to➛Name&lt;button id="transform_function_facade_45e8307a-cf70-4a9d-9705-3190f2e81dd9" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="data_parent_pill" style="display: inline;"&gt;&lt;span class="data_pill  accepts_transform_functions"&gt;1➛Hardware Record➛Display name&lt;button id="transform_function_facade_47400070-2d06-4708-8bd7-d638381468ef" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
+        <variable display_value="">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9709bd6a2fa520106776bab62799b67f</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:08:37</sys_created_on>
+        <sys_id>db09bd6a2fa520106776bab62799b682</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-09 20:08:37</sys_updated_on>
+        <value>legal@example.com,
+ </value>
+        <variable display_value="">59806bf4a70323008299b39f087901da</variable>
+    </sys_variable_value>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9709bd6a2fa520106776bab62799b67f^sys_idNOT IN9309bd6a2fa520106776bab62799b681"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>ah_to</input_name>
+        <instance>9709bd6a2fa520106776bab62799b67f</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_to":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:08:37</sys_created_on>
+        <sys_id>9309bd6a2fa520106776bab62799b681</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-09 20:08:37</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=682921222fa520106776bab62799b6dc^sys_idNOT IN5309bd6a2fa520106776bab62799b69d,9b09bd6a2fa520106776bab62799b69d"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>682921222fa520106776bab62799b6dc</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{cb28d420-ebc0-42c1-970f-ac6e81ee4774.record.display_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:08:37</sys_created_on>
+        <sys_id>5309bd6a2fa520106776bab62799b69d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-09 20:08:37</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>47400070-2d06-4708-8bd7-d638381468ef</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>682921222fa520106776bab62799b6dc</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{cb28d420-ebc0-42c1-970f-ac6e81ee4774.record.assigned_to.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 20:08:37</sys_created_on>
+        <sys_id>9b09bd6a2fa520106776bab62799b69d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-09 20:08:37</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>45e8307a-cf70-4a9d-9705-3190f2e81dd9</ui_id>
+    </sys_hub_pill_compound>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=682921222fa520106776bab62799b6dc^sys_idNOT INabacff662fe920106776bab62799b6f0"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan/>
+        <plan_id>682921222fa520106776bab62799b6dc</plan_id>
+        <snapshot>57acff662fe920106776bab62799b6a3</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>abacff662fe920106776bab62799b6f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <trigger display_value="">e7acff662fe920106776bab62799b6e1</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Test stolen hardware</description>
+        <internal_name>kolen_hardware</internal_name>
+        <label_cache>[{"name":"7402ecdf-d93b-429f-abae-e274df978845.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7402ecdf-d93b-429f-abae-e274df978845.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cb28d420-ebc0-42c1-970f-ac6e81ee4774.record","label":"1➛Hardware Record","reference":"alm_hardware","reference_display":"Hardware","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cb28d420-ebc0-42c1-970f-ac6e81ee4774.table_name","label":"1➛Hardware Table","reference":"alm_hardware","reference_display":"Hardware","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6294c7c7-6ec8-4181-9f5b-1889de7da475.email","label":"2➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cb28d420-ebc0-42c1-970f-ac6e81ee4774.record.assigned_to.email","label":"1➛Hardware Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"cb28d420-ebc0-42c1-970f-ac6e81ee4774.record.display_name","label":"1➛Hardware Record➛Display name","reference":"","reference_display":"Display name","type":"string","base_type":"string","parent_table_name":"alm_hardware","column_name":"display_name"},{"name":"cb28d420-ebc0-42c1-970f-ac6e81ee4774.record.assigned_to.name","label":"1➛Hardware Record➛Assigned to➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"}]</label_cache>
+        <master>true</master>
+        <name>Kolen Hardware</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Kolen Hardware">682921222fa520106776bab62799b6dc</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>57acff662fe920106776bab62799b6a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:42</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=57acff662fe920106776bab62799b6a3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=57acff662fe920106776bab62799b6a3"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=57acff662fe920106776bab62799b6a3^sys_idNOT IN13acff662fe920106776bab62799b6ac,d3acff662fe920106776bab62799b6b1,dfacff662fe920106776bab62799b6a7"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment>Notify  Legel Team</comment>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Kolen Hardware">57acff662fe920106776bab62799b6a3</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>13acff662fe920106776bab62799b6ac</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <ui_id>6294c7c7-6ec8-4181-9f5b-1889de7da475</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=13acff662fe920106776bab62799b6ac"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>13acff662fe920106776bab62799b6ac</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>13acff662fe920106776bab62799b6af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <value>Whats up</value>
+        <variable display_value="">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>13acff662fe920106776bab62799b6ac</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>5facff662fe920106776bab62799b6ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <value>&lt;p&gt;&lt;span class="data_parent_pill" style="display: inline;"&gt;&lt;span class="data_pill  accepts_transform_functions"&gt;1➛Hardware Record➛Assigned to➛Name&lt;button id="transform_function_facade_45e8307a-cf70-4a9d-9705-3190f2e81dd9" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="data_parent_pill" style="display: inline;"&gt;&lt;span class="data_pill  accepts_transform_functions"&gt;1➛Hardware Record➛Display name&lt;button id="transform_function_facade_47400070-2d06-4708-8bd7-d638381468ef" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
+        <variable display_value="">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>13acff662fe920106776bab62799b6ac</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>9bacff662fe920106776bab62799b6ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <value>legal@example.com,
+ </value>
+        <variable display_value="">59806bf4a70323008299b39f087901da</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Kolen Hardware">57acff662fe920106776bab62799b6a3</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>d3acff662fe920106776bab62799b6b1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <ui_id>7402ecdf-d93b-429f-abae-e274df978845</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d3acff662fe920106776bab62799b6b1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d3acff662fe920106776bab62799b6b1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>13acff662fe920106776bab62799b6b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <value>department={"display":"Business Development","value":"2b88b18a3b700300d901655593efc409"}</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d3acff662fe920106776bab62799b6b1</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>d3acff662fe920106776bab62799b6b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <value>alm_hardware</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d3acff662fe920106776bab62799b6b1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d3acff662fe920106776bab62799b6b1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>dbacff662fe920106776bab62799b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{cb28d420-ebc0-42c1-970f-ac6e81ee4774.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d3acff662fe920106776bab62799b6b1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>1bacff662fe920106776bab62799b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d3acff662fe920106776bab62799b6b1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>9facff662fe920106776bab62799b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Kolen Hardware">57acff662fe920106776bab62799b6a3</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:42</sys_created_on>
+        <sys_id>dfacff662fe920106776bab62799b6a7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <ui_id>cb28d420-ebc0-42c1-970f-ac6e81ee4774</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dfacff662fe920106776bab62799b6a7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dfacff662fe920106776bab62799b6a7</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>97acff662fe920106776bab62799b6a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <value>alm_hardware</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dfacff662fe920106776bab62799b6a7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>d3acff662fe920106776bab62799b6a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <value>asset_tag=HW123987^model_category={"display":"Computer","value":"81feb9c137101000deeabfc8bcbe5dc4"}^model={"display":"Apple MacBook Pro 15\"","value":"d3bb6a2eac10019b4fa294baf5775f21"}</value>
+        <variable display_value="">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=57acff662fe920106776bab62799b6a3^sys_idNOT IN5bacff662fe920106776bab62799b6b3"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Kolen Hardware">57acff662fe920106776bab62799b6a3</flow>
+        <name>Monthly</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>5bacff662fe920106776bab62799b6b3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <trigger_definition display_value="Monthly">2ca52504c32222002841b63b12d3ae4a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>monthly</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5bacff662fe920106776bab62799b6b3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>5bacff662fe920106776bab62799b6b3</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>97acff662fe920106776bab62799b6b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <value>5</value>
+        <variable display_value="">ab36a504c32222002841b63b12d3ae8a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>5bacff662fe920106776bab62799b6b3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>d3acff662fe920106776bab62799b6b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <value>1970-01-01 17:00:00</value>
+        <variable display_value="">b5d52504c32222002841b63b12d3aeaa</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=57acff662fe920106776bab62799b6a3^sys_idNOT IN5bacff662fe920106776bab62799b6a3"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>57acff662fe920106776bab62799b6a3</id>
+        <name>Kolen Hardware</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:42</sys_created_on>
+        <sys_id>5bacff662fe920106776bab62799b6a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:42</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=57acff662fe920106776bab62799b6a3^sys_idNOT IN13acff662fe920106776bab62799b6ac,d3acff662fe920106776bab62799b6b1,dfacff662fe920106776bab62799b6a7"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment>Notify  Legel Team</comment>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Kolen Hardware">57acff662fe920106776bab62799b6a3</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>13acff662fe920106776bab62799b6ac</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <ui_id>6294c7c7-6ec8-4181-9f5b-1889de7da475</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=13acff662fe920106776bab62799b6ac"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>13acff662fe920106776bab62799b6ac</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>13acff662fe920106776bab62799b6af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <value>Whats up</value>
+        <variable display_value="">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>13acff662fe920106776bab62799b6ac</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>5facff662fe920106776bab62799b6ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <value>&lt;p&gt;&lt;span class="data_parent_pill" style="display: inline;"&gt;&lt;span class="data_pill  accepts_transform_functions"&gt;1➛Hardware Record➛Assigned to➛Name&lt;button id="transform_function_facade_45e8307a-cf70-4a9d-9705-3190f2e81dd9" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="data_parent_pill" style="display: inline;"&gt;&lt;span class="data_pill  accepts_transform_functions"&gt;1➛Hardware Record➛Display name&lt;button id="transform_function_facade_47400070-2d06-4708-8bd7-d638381468ef" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
+        <variable display_value="">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>13acff662fe920106776bab62799b6ac</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>9bacff662fe920106776bab62799b6ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <value>legal@example.com,
+ </value>
+        <variable display_value="">59806bf4a70323008299b39f087901da</variable>
+    </sys_variable_value>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=13acff662fe920106776bab62799b6ac^sys_idNOT IN97acff662fe920106776bab62799b6ad"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>ah_to</input_name>
+        <instance>13acff662fe920106776bab62799b6ac</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_to":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>97acff662fe920106776bab62799b6ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Kolen Hardware">57acff662fe920106776bab62799b6a3</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>d3acff662fe920106776bab62799b6b1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <ui_id>7402ecdf-d93b-429f-abae-e274df978845</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d3acff662fe920106776bab62799b6b1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d3acff662fe920106776bab62799b6b1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>13acff662fe920106776bab62799b6b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <value>department={"display":"Business Development","value":"2b88b18a3b700300d901655593efc409"}</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d3acff662fe920106776bab62799b6b1</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>d3acff662fe920106776bab62799b6b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <value>alm_hardware</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d3acff662fe920106776bab62799b6b1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d3acff662fe920106776bab62799b6b1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>dbacff662fe920106776bab62799b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{cb28d420-ebc0-42c1-970f-ac6e81ee4774.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d3acff662fe920106776bab62799b6b1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>1bacff662fe920106776bab62799b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d3acff662fe920106776bab62799b6b1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>9facff662fe920106776bab62799b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Kolen Hardware">57acff662fe920106776bab62799b6a3</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:42</sys_created_on>
+        <sys_id>dfacff662fe920106776bab62799b6a7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <ui_id>cb28d420-ebc0-42c1-970f-ac6e81ee4774</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dfacff662fe920106776bab62799b6a7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dfacff662fe920106776bab62799b6a7</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>97acff662fe920106776bab62799b6a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <value>alm_hardware</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dfacff662fe920106776bab62799b6a7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>d3acff662fe920106776bab62799b6a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <value>asset_tag=HW123987^model_category={"display":"Computer","value":"81feb9c137101000deeabfc8bcbe5dc4"}^model={"display":"Apple MacBook Pro 15\"","value":"d3bb6a2eac10019b4fa294baf5775f21"}</value>
+        <variable display_value="">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=57acff662fe920106776bab62799b6a3^sys_idNOT IN53acff662fe920106776bab62799b6b5,dbacff662fe920106776bab62799b6b4"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>57acff662fe920106776bab62799b6a3</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{cb28d420-ebc0-42c1-970f-ac6e81ee4774.record.assigned_to.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>53acff662fe920106776bab62799b6b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>45e8307a-cf70-4a9d-9705-3190f2e81dd9</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>57acff662fe920106776bab62799b6a3</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{cb28d420-ebc0-42c1-970f-ac6e81ee4774.record.display_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 05:43:43</sys_created_on>
+        <sys_id>dbacff662fe920106776bab62799b6b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 05:43:43</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>47400070-2d06-4708-8bd7-d638381468ef</ui_id>
+    </sys_hub_pill_compound>
+</record_update>
